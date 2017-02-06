@@ -9,6 +9,18 @@ Data and Crawlers.
 - Based on the latest approaches in Machine Learning.
 
 ## Data
+### Crawling CNN,BBC,100FEDUP,FOX,Breitbart News Network
+The big part of this Dataset comes from Crawling several websites and using their data for Training the model. The crawlers are included in this package and you can run them yourself.
+By Using [Scrapy](https://scrapy.org/), We have downloaded around 50,000 News Article. We have saved the following fields : 
+1.Authors
+2.Title
+3.Text of the News
+4.Number of Related Articles
+5.Number of Sources
+6.Number of images
+7.Published Date
+
+
 ### Kaggle Dataset
 This Data is consists of different parts. The first part is [Kaggle's Fake News Dataset](https://www.kaggle.com/mrisdal/fake-news)
 which is available online. From the explanation of data in the original website : 
@@ -24,5 +36,3 @@ which is available online. From the explanation of data in the original website 
 > misleading news in the first place to deciding how to take action (a blacklist is not a good answer), there's a lot of information to 
 > consider beyond what can be neatly arranged in a CSV file.
 
-### Crawling CNN,BBC,100FEDUP,FOX,Breitbart News Network
-The big part of this Dataset comes from Crawling several websites and using their data for Training the model. The crawlers are included in this package and you can run them yourself.
