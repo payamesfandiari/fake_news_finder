@@ -8,41 +8,18 @@ Data and Crawlers.
 - Have collaborative filtering. Users can give scores to News Articles
 - Based on the latest approaches in Machine Learning.
 
-## How to Use
+## Data
+### Kaggle Dataset
+This Data is consists of different parts. The first part is [Kaggle's Fake News Dataset](https://www.kaggle.com/mrisdal/fake-news)
+which is available online. From the explanation of data in the original website : 
 
-To use this project, follow these steps:
-
-1. Create your working environment.
-2. Install Django (`$ pip install django`)
-3. Create a new project using this template
-
-## Creating Your Project
-
-Using this template to create a new Django app is easy::
-
-    $ django-admin.py startproject --template=https://github.com/heroku/heroku-django-template/archive/master.zip --name=Procfile helloworld
-
-You can replace ``helloworld`` with your desired project name.
-
-## Deployment to Heroku
-
-    $ git init
-    $ git add -A
-    $ git commit -m "Initial commit"
-
-    $ heroku create
-    $ git push heroku master
-
-    $ heroku run python manage.py migrate
-
-See also, a [ready-made application](https://github.com/heroku/python-getting-started), ready to deploy.
-
-## Using Python 2.7?
-
-Just update `runtime.txt` to `python-2.7.13` (no trailing spaces or newlines!).
-
-## Further Reading
-
-- [Gunicorn](https://warehouse.python.org/project/gunicorn/)
-- [WhiteNoise](https://warehouse.python.org/project/whitenoise/)
-- [dj-database-url](https://warehouse.python.org/project/dj-database-url/)
+> The dataset contains text and metadata from 244 websites and represents 12,999 posts in total from the past 30 days. The data was 
+> pulled using the [webhose.io][4] API; because it's coming from their crawler, not all websites identified by the BS Detector are 
+> present in this dataset. Each website was labeled according to the [BS Detector as documented here][5]. Data sources that were missing > a label were simply assigned a label of "bs". There are (ostensibly) no genuine, reliable, or trustworthy news sources represented in > this dataset (so far), so don't trust anything you read.
+> 
+> ## Fake news in the news
+> 
+> For inspiration, I've included some (presumably non-fake) recent stories covering fake news in the news. This is a sensitive, nuanced > topic and if there are other resources you'd like to see included here, please leave a suggestion. From defining fake, biased, and 
+> misleading news in the first place to deciding how to take action (a blacklist is not a good answer), there's a lot of information to > consider beyond what can be neatly arranged in a CSV file.
+### Crawling CNN,BBC,100FEDUP,FOX,Breitbart News Network
+The big part of this Dataset comes from Crawling several websites and using their data for Training the model. The crawlers are included in this package and you can run them yourself.
