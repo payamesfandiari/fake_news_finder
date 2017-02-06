@@ -12,14 +12,16 @@ Data and Crawlers.
 ### Crawling CNN,BBC,100FEDUP,FOX,Breitbart News Network
 The big part of this Dataset comes from Crawling several websites and using their data for Training the model. The crawlers are included in this package and you can run them yourself.
 By Using [Scrapy](https://scrapy.org/), We have downloaded around 50,000 News Article. We have saved the following fields : 
-1.Authors
-2.Title
-3.Text of the News
-4.Number of Related Articles
-5.Number of Sources
-6.Number of images
-7.Published Date
+1. Authors
+2. Title
+3. Text of the News
+4. Number of Related Articles
+5. Number of Sources
+6. Number of images
+7. Published Date
 
+These fields has been cleared for usage. The bulk of analysis happens on the **Text of the News** but **Number of Related Articles,
+Number of Sources and Number of images** are also considered.
 
 ### Kaggle Dataset
 This Data is consists of different parts. The first part is [Kaggle's Fake News Dataset](https://www.kaggle.com/mrisdal/fake-news)
