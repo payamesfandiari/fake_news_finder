@@ -19,7 +19,10 @@ which is available online. From the explanation of data in the original website 
 > 
 > ## Fake news in the news
 > 
-> For inspiration, I've included some (presumably non-fake) recent stories covering fake news in the news. This is a sensitive, nuanced > topic and if there are other resources you'd like to see included here, please leave a suggestion. From defining fake, biased, and 
-> misleading news in the first place to deciding how to take action (a blacklist is not a good answer), there's a lot of information to > consider beyond what can be neatly arranged in a CSV file.
+> For inspiration, I've included some (presumably non-fake) recent stories covering fake news in the news. This is a sensitive, nuanced 
+> topic and if there are other resources you'd like to see included here, please leave a suggestion. From defining fake, biased, and 
+> misleading news in the first place to deciding how to take action (a blacklist is not a good answer), there's a lot of information to 
+> consider beyond what can be neatly arranged in a CSV file.
+
 ### Crawling CNN,BBC,100FEDUP,FOX,Breitbart News Network
 The big part of this Dataset comes from Crawling several websites and using their data for Training the model. The crawlers are included in this package and you can run them yourself.
