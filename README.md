@@ -11,7 +11,8 @@ Data and Crawlers.
 ## Data
 ### Crawling CNN,BBC,100FEDUP,FOX,Breitbart News Network
 The big part of this Dataset comes from Crawling several websites and using their data for Training the model. The crawlers are included in this package and you can run them yourself.
-By Using [Scrapy](https://scrapy.org/), We have downloaded around 50,000 News Article. We have saved the following fields : 
+By Using [Scrapy](https://scrapy.org/), We have downloaded around 50,000 News Article. We have saved the following fields :
+
 1. Authors
 2. Title
 3. Text of the News
