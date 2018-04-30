@@ -35,4 +35,4 @@ class BbcCrawlerSpider(CrawlSpider):
             story['crawled_date'] = datetime.now()
             return story
         else:
-            self.log("Not Story found")
+            self.log("No Story found")

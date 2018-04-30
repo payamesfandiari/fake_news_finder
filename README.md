@@ -9,6 +9,8 @@ Data and Crawlers.
 - Based on the latest approaches in Machine Learning.
 
 ## Data
+Our data comes from variety of sources. Most of the data have been mined and scrapped from different websites.
+The other two datasets are from Kaggle and from [George McIntire Fake News Dataset.](https://github.com/GeorgeMcIntire/fake_real_news_dataset) 
 ### Crawling CNN,BBC,100FEDUP,FOX,Breitbart News Network
 The big part of this Dataset comes from Crawling several websites and using their data for Training the model. The crawlers are included in this package and you can run them yourself.
 By Using [Scrapy](https://scrapy.org/), We have downloaded around 50,000 News Article. We have saved the following fields :
@@ -32,10 +34,9 @@ which is available online. From the explanation of data in the original website 
 > pulled using the [webhose.io][4] API; because it's coming from their crawler, not all websites identified by the BS Detector are 
 > present in this dataset. Each website was labeled according to the [BS Detector as documented here][5]. Data sources that were missing > a label were simply assigned a label of "bs". There are (ostensibly) no genuine, reliable, or trustworthy news sources represented in > this dataset (so far), so don't trust anything you read.
 > 
-> ## Fake news in the news
-> 
-> For inspiration, I've included some (presumably non-fake) recent stories covering fake news in the news. This is a sensitive, nuanced 
-> topic and if there are other resources you'd like to see included here, please leave a suggestion. From defining fake, biased, and 
-> misleading news in the first place to deciding how to take action (a blacklist is not a good answer), there's a lot of information to 
-> consider beyond what can be neatly arranged in a CSV file.
+
+### Fake or Real dataset 
+This dataset obtained from [George McIntire Fake News Dataset.](https://github.com/GeorgeMcIntire/fake_real_news_dataset)
+The dataset contains around 11,000 news article classified into two major classes.
+
 
